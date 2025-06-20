@@ -1,6 +1,6 @@
-# 💻 Tugas Pengganti Mata Kuliah Sistem Operasi – IT-06-01
+# Tugas Pengganti Mata Kuliah Sistem Operasi – IT-06-01
 
-## 👤 Identitas
+## Identitas
 
 - **Nama**: Muhammad Febriano Aldo Syahputra
 - **NIM**: 1202230021
@@ -8,25 +8,25 @@
 
 ---
 
-## 📋 Deskripsi Umum
+## Deskripsi Umum
 
 Repositori ini berisi tugas pengganti mata kuliah Sistem Operasi yang dikembangkan menggunakan Bash Script. Program ini menyediakan menu interaktif untuk menampilkan berbagai informasi sistem dan pengguna. Tampilan terminal dibuat lebih menarik dengan penggunaan warna, ASCII art, dan loading bar.
 
 ---
 
-## 📌 Menu yang Diimplementasikan
+## Menu yang Diimplementasikan
 
 Seluruh 7 menu utama berhasil diimplementasikan:
 
-### 1. ⏰ Waktu Saat Ini + Greetings
+### 1. Waktu Saat Ini + Greetings
 
 Menampilkan waktu real-time berdasarkan zona sistem (WIB/WITA/WIT) lengkap dengan hari, tanggal, jam, serta sapaan otomatis seperti “Selamat pagi”, “Selamat malam”, dll.
 
-### 2. 📁 Isi Direktori
+### 2. Isi Direktori
 
 Menampilkan daftar isi direktori aktif dalam bentuk tabel (`ls -lah`) dengan pewarnaan terminal yang memudahkan identifikasi file.
 
-### 3. 🌐 Informasi Jaringan
+### 3. Informasi Jaringan
 
 Menyediakan informasi seperti:
 
@@ -37,7 +37,7 @@ Menyediakan informasi seperti:
 - Koneksi aktif (via `nmcli`, opsional)
 - Lokasi IP publik (via API `ipinfo.io`)
 
-### 4. 💾 Detail Sistem Operasi
+### 4. Detail Sistem Operasi
 
 Informasi sistem lengkap:
 
@@ -47,11 +47,11 @@ Informasi sistem lengkap:
 - RAM usage (`free`)
 - Disk usage (`df`)
 
-### 5. 🗕️ Estimasi Waktu Install OS
+### 5. Estimasi Waktu Install OS
 
 Menampilkan waktu filesystem root dibuat dengan `tune2fs` (butuh `sudo`), sebagai estimasi waktu instalasi OS pertama kali.
 
-### 6. 👤 Informasi Pengguna
+### 6. Informasi Pengguna
 
 Detail pengguna saat ini:
 
@@ -61,13 +61,13 @@ Detail pengguna saat ini:
 - Shell default
 - Home directory
 
-### 7. 🚪 Keluar Program
+### 7. Keluar Program
 
 Menampilkan animasi penutup dan pesan pamit sebelum program keluar dengan aman.
 
 ---
 
-## 🧪 Cara Menjalankan
+## Cara Menjalankan
 
 ```bash
 chmod +x tugasSisop.sh
@@ -81,7 +81,7 @@ chmod +x tugasSisop.sh
 
 ---
 
-## 🗂️ Struktur File
+## Struktur File
 
 ```
 tugas-sistem-operasi/
@@ -92,15 +92,15 @@ tugas-sistem-operasi/
 
 ---
 
-## 📌 Link Pengumpulan
+## Link Pengumpulan
 
 Silakan kumpulkan link repository ini melalui LMS sesuai instruksi tugas.
 
 ---
 
-## 🗖️ Deadline
+## Deadline
 
-🗓️ Sabtu, 21 Juni 2025 pukul 23:59 WIB
+Sabtu, 21 Juni 2025 pukul 23:59 WIB
 
 ---
 
