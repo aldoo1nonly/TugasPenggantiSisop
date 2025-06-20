@@ -1,2 +1,0 @@
-# TugasPenggantiSisop
-Menu Bash
