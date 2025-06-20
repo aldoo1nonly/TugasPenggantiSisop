@@ -81,20 +81,16 @@ chmod +x tugasSisop.sh
 
 ---
 
-## Struktur File
+## Dokumentasi Menu 
+- Tampilan Keseluruhan Menu
+  
+  ![image](https://github.com/user-attachments/assets/72f388aa-8975-479b-a264-d09023d3acd5)
 
-```
-tugas-sistem-operasi/
-├── tugasSisop.sh      # Script bash utama
-├── README.md          # Dokumentasi ini
-└── log.txt            # File log menu yang dijalankan (otomatis dibuat)
-```
 
----
 
-## Link Pengumpulan
-
-Silakan kumpulkan link repository ini melalui LMS sesuai instruksi tugas.
+- Menu 1 Greeting User
+  
+  ![image](https://github.com/user-attachments/assets/46562e4d-6016-4926-9d3f-7de686ef47e5)
 
 ---
 
@@ -104,7 +100,7 @@ Sabtu, 21 Juni 2025 pukul 23:59 WIB
 
 ---
 
-## 🙏 Terima Kasih
+## Terima Kasih
 
 Program ini dibuat sebagai bentuk tanggung jawab akademik dan latihan penggunaan Bash di dunia nyata. Semoga bermanfaat dan inspiratif bagi pengembangan tugas lainnya.
 
