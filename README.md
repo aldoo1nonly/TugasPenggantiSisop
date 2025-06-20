@@ -84,8 +84,7 @@ chmod +x tugasSisop.sh
 ## Dokumentasi Menu 
 - Tampilan Keseluruhan Menu
   
-  ![image](https://github.com/user-attachments/assets/72f388aa-8975-479b-a264-d09023d3acd5)
-
+  <img width="305" alt="Image" src="https://github.com/user-attachments/assets/347e6d37-ba12-4e93-a6aa-6d8c70cad421" />
 
 
 - Menu 1 Greeting User
