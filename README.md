@@ -111,6 +111,7 @@ Menu 5 – Estimasi Tanggal Instalasi OS
 ![image](https://github.com/user-attachments/assets/2bef3ed8-389d-4b5d-aeaf-cbf0ebe6debc)
 
 Menu 6 – Informasi Akun Pengguna
+
 ![image](https://github.com/user-attachments/assets/b24c041e-e3d3-4e09-9e80-4289ba64a024)
 
 ---
