@@ -173,35 +173,35 @@ function menu_keluar() {
     exit 0
 }
 
-# Array menu acak
-menu_funcs=(menu_waktu_saat_ini menu_direktori menu_jaringan menu_os menu_install_time menu_user_info)
-menu_titles=("Tampilkan Waktu Saat Ini" "Tampilkan Isi Direktori" "Informasi Jaringan" "Detail Sistem Operasi" "Waktu Install OS Pertama Kali" "Informasi Pengguna")
-
 # Awal program
 daftar_isi
 
 # MAIN MENU
 while true; do
-    mapfile -t shuffled < <(printf "%s\n" {0..5} | shuf)
     judul_ascii
     echo -e "${CYAN}Pilih Menu:${NC}"
     echo -e "${YELLOW}+----+---------------------------------------------+${NC}"
     printf "${YELLOW}| %-2s | %-43s |\n" "No" "Menu"
     echo -e "+----+---------------------------------------------+${NC}"
     printf "| %-2s | %-43s |\n" "0" "Bersihkan Layar"
-    for idx in "${!shuffled[@]}"; do
-        num=$((idx + 1))
-        i="${shuffled[$idx]}"
-        printf "| %-2s | %-43s |\n" "$num" "${menu_titles[$i]}"
-        menu_map[$num]=${menu_funcs[$i]}
-    done
+    printf "| %-2s | %-43s |\n" "1" "Tampilkan Waktu Saat Ini"
+    printf "| %-2s | %-43s |\n" "2" "Tampilkan Isi Direktori"
+    printf "| %-2s | %-43s |\n" "3" "Informasi Jaringan"
+    printf "| %-2s | %-43s |\n" "4" "Detail Sistem Operasi"
+    printf "| %-2s | %-43s |\n" "5" "Waktu Install OS Pertama Kali"
+    printf "| %-2s | %-43s |\n" "6" "Informasi Pengguna"
     printf "| %-2s | %-43s |\n" "7" "Keluar"
     echo -e "+----+---------------------------------------------+${NC}"
     echo
     read -p "Masukkan pilihan Anda [0-7]: " opsi
     case $opsi in
         0) menu_clear ;;
-        1|2|3|4|5|6) func=${menu_map[$opsi]}; $func ;;
+        1) menu_waktu_saat_ini ;;
+        2) menu_direktori ;;
+        3) menu_jaringan ;;
+        4) menu_os ;;
+        5) menu_install_time ;;
+        6) menu_user_info ;;
         7) menu_keluar ;;
         *) echo -e "${RED}Pilihan tidak valid.${NC}"; sleep 1 ;;
     esac
