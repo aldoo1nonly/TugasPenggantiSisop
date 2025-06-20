@@ -82,14 +82,37 @@ chmod +x tugasSisop.sh
 ---
 
 ## Dokumentasi Menu 
-- Tampilan Keseluruhan Menu
-  
-  <img width="305" alt="Image" src="https://github.com/user-attachments/assets/347e6d37-ba12-4e93-a6aa-6d8c70cad421" />
+Daftar Isi – Daftar Menu & Keterangan Menu
+<img width="305" alt="image" src="https://github.com/user-attachments/assets/2b30938c-cf7e-4b14-a055-e29b9b6c13aa" />
 
 
-- Menu 1 Greeting User
-  
-  ![image](https://github.com/user-attachments/assets/46562e4d-6016-4926-9d3f-7de686ef47e5)
+Menu Utama – Opsi Pilihan Menu
+<img width="307" alt="image" src="https://github.com/user-attachments/assets/7280f644-91de-4478-b210-aba813280c9b" />
+
+ 
+Menu 1 – Penunjuk Waktu & Sapaan Otomatis
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/6dea6d1e-31c1-4c38-99ac-b9c63af1f300" />
+
+
+Menu 2 – Direktori Aktif
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/3f903384-04c5-44a0-9df9-dcff1510c22d" />
+
+
+Menu 3 – Data Jaringan & Koneksi
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/83d82561-1ef3-411e-a8c6-042b48660318" />
+
+
+Menu 4 – Sistem Operasi & Perangkat
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/2f6dc91b-0895-41ac-8f11-853496110984" />
+
+
+Menu 5 – Estimasi Tanggal Instalasi OS
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/2bef3ed8-389d-4b5d-aeaf-cbf0ebe6debc" />
+
+
+Menu 6 – Informasi Akun Pengguna
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/b24c041e-e3d3-4e09-9e80-4289ba64a024" />
+
 
 ---
 
